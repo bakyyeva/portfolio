@@ -196,14 +196,14 @@ li{
     top: 50%;
     left: 50%;
     transform: translate(-50%,-50%);
-    width: 80%;
+    width: 100%;
     text-align: center;
     z-index: 1; 
     
 }
 
 .landing-text h1{
-    font-size: 16rem;
+    font-size: 20rem;
     font-family:'Roboto', sans-serif;
     background: linear-gradient(to top, #2c54bb, #59e6eb);
     background-clip: text;
@@ -274,6 +274,10 @@ li{
 .fa-linkedin-in:hover{
     color:#3883ff;
 }
+
+.fa-codepen:hover{
+    color: #16162d;
+}
 /*End about*/
 /*Start divinators*/
 .wrapper{
@@ -333,7 +337,7 @@ li{
     
 }
 .line2::after{
-    max-width: 60%;
+    max-width: 90%;
 }
 
 .line3::after{
@@ -344,11 +348,11 @@ li{
 }
 
 .line5::after{
-    max-width: 85%;
+    max-width: 95%;
 }
 
 .line6::after{
-    max-width: 25%;
+    max-width: 85%;
 }
 
 @keyframes animate{
@@ -387,8 +391,6 @@ li{
     letter-spacing: 2px;
     margin: 2rem -2px 2rem 0;
     text-decoration: underline;
-
-
 }
 
 .icon-container{
